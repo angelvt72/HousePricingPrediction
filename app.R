@@ -29,11 +29,6 @@ library(car)
 library(shinyWidgets)
 options(warn=-1)
 
-install.packages("rsconnect")
-rsconnect::writeManifest()
-
-
-
 calculate_profitability <- function(purchase_price, rent_price) {
   
   # Calculate annual gross profitability
