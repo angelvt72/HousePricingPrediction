@@ -1,0 +1,199 @@
+location_options <- list(
+  "Cartagena" = list(
+    "Cartagena" = c(
+      "Alameda", 
+      "Casco Antiguo",
+      "Ciudad Jardín",
+      "Ensanche", 
+      "La Concepción", 
+      "Los Barreros-Cuatro Santos",
+      "Peral-La Vereda",
+      "San Antón", 
+      "San Ginés-Virgen de la Caridad", 
+      "Santa Lucía"
+    ),
+    "El Algar" = c("El Algar"),
+    "Pozo Estrecho" = c("Pozo Estrecho"),
+    "La Azohía" = c("La Azohía"),
+    "Santa Ana-Miranda" = c("Santa Ana-Miranda"),
+    "Canteras" = c("Canteras"),
+    "La Aljorra" = c("La Aljorra"),
+    "La Magdalena" = c("La Magdalena"),
+    "Lentiscar" = c("Lentiscar"),
+    "Albujón" = c("Albujón"),
+    "El Beal-Estrecho de San Ginés" = c("El Beal-Estrecho de San Ginés"),
+    "Alumbres-Escombreras" = c("Alumbres-Escombreras"),
+    "Hondón-Torreciega" = c("Hondón-Torreciega"),
+    "El Plan" = c(
+      "Los Dolores-Los Gabatos",
+      "El Plan-Polígono de Santa Ana",
+      "Hispanoamérica-Universidad",
+      "San Cristóbal"
+    ),
+    "Mar de Cristal-Cabo de Palos" = c(
+      "Playa Honda-Playa Paraíso",
+      "Islas Menores-Mar de Cristal",
+      "Los Nietos",
+      "La Manga Club-Atamaría",
+      "Cabo de Palos",
+      "Los Belones"
+    ),
+    "Perín" = c(
+      "Galifa",
+      "Cuesta Blanca",
+      "Centro",
+      "La Azohía"
+    )
+  ),
+  "Fuente Álamo" = list(
+    "Fuente Álamo" = c(
+      "Hacienda del Álamo Golf", 
+      "La Pinilla - Las Palas", 
+      "Centro", 
+      "Cánovas - Cuevas de Reyllo", 
+      "Balsapintada - El Estrecho", 
+      "Los Almagros - Los Paganes - El Escobar"
+    )
+  ),
+  "La Unión" = list(
+    "La Unión" = c(
+      "La Unión",
+      "Portmán",
+      "Roche"
+    )
+  ),
+  "Mar Menor" = list(
+    "Torre-Pacheco" = c(
+      "Torre-Pacheco", 
+      "Roldán", 
+      "Dolores de Pacheco-Santa Rosalía", 
+      "Mar Menor Golf Resort", 
+      "Balsicas", 
+      "San Cayetano", 
+      "El Jimenado"
+    ),
+    "Los Alcázares" = c(
+      "Los Alcázares", 
+      "Los Narejos-Punta Calera", 
+      "Las Lomas del Rame-Bahía Bella"
+    ),
+    "San Javier" = c(
+      "Santiago de la Ribera", 
+      "San Javier", 
+      "Roda", 
+      "El Mirador-Pozo Aledo"
+    ),
+    "San Pedro del Pinatar" = c(
+      "San Pedro del Pinatar", 
+      "Lo Pagán", 
+      "Los Cuarteros", 
+      "Los Peñascos-El Salero-Los Imbernones", 
+      "El Mojón-Las Salinas"
+    )
+  ),
+  "La Manga del Mar Menor" = list(
+    "La Manga del Mar Menor" = c(
+      "Playa de las Gaviotas-El Pedrucho", 
+      "Playa del Esparto-Veneziola", 
+      "Playa del Galán", 
+      "Zona Entremares", 
+      "Zona Galúa-Calnegre"
+    )
+  ),
+  "Bajo Guadalentín" = list(
+    "Librilla" = c("Librilla"),
+    "Aledo" = c("Aledo"),
+    "Totana" = c("Totana"),
+    "Alhama de Murcia" = c(
+      "Alhama de Murcia", 
+      "Condado de Alhama", 
+      "Sierra de Carrascoy"
+    ),
+    "Mazarrón" = c("Mazarrón", "Bolnuevo"),
+    "Puerto de Mazarrón" = c(
+      "Bahía", 
+      "Cuatro Plumas-La Cumbre", 
+      "El Alamillo", 
+      "Playa Grande-Castellar", 
+      "Playa Sol", 
+      "Puerto"
+    )
+  ),
+  "Alto Guadalentín" = list(
+    "Puerto Lumbreras" = c("Puerto Lumbreras"),
+    "Águilas" = c(
+      "Calabardina-Cope", 
+      "Centro", 
+      "Hornillo", 
+      "Isla del Fraile", 
+      "Las Delicias", 
+      "Las Lomas-Las Yucas", 
+      "Las Majadas-Las Molinetas-Labradorcico", 
+      "Los Collados-Los Geráneos", 
+      "Tébar - Los Arejos"
+    ),
+    "Lorca" = c(
+      "La Hoya-Almendricos-Purias", 
+      "La Viña-San José", 
+      "San Diego-Los Ángeles-San Cristóbal", 
+      "Zarcilla de Ramos-Doña Inés", 
+      "Zona Centro-Corredera"
+    )
+  ),
+  "Noroeste" = list(
+    "Bullas" = c("Bullas"),
+    "Calasparra" = c("Calasparra"),
+    "Caravaca de la Cruz" = c("Caravaca de la Cruz"),
+    "Cehegín" = c("Cehegín"),
+    "Moratalla" = c("Moratalla")
+  ),
+  "Valle de Ricote" = list(
+    "Archena" = c("Archena"),
+    "Villanueva del Rio Segura" = c("Villanueva del Rio Segura"),
+    "Ricote" = c("Ricote"),
+    "Ulea" = c("Ulea"),
+    "Ojós" = c("Ojós")
+  ),
+  "Río Mula" = list(
+    "Mula" = c("Mula"),
+    "Pliego" = c("Pliego"),
+    "Campos del Río" = c("Campos del Río"),
+    "Albudeite" = c("Albudeite")
+  ),
+  "Vega Alta" = list(
+    "Cieza" = c("Cieza"),
+    "Abarán" = c("Abarán"),
+    "Blanca" = c("Blanca")
+  ),
+  "Altiplano Oriental" = list(
+    "Yecla" = c("Yecla"),
+    "Fortuna" = c("Fortuna"),
+    "Jumilla" = c("Jumilla"),
+    "Abanilla" = c("Abanilla")
+  ),
+  "Vega Media" = list(
+    "Las Torres de Cotillas" = c("Las Torres de Cotillas"),
+    "Alguazas" = c("Alguazas"),
+    "Ceutí" = c("Ceutí"),
+    "Lorquí" = c("Lorquí"),
+    "Molina de Segura" = c(
+      "Centro", 
+      "El Castillo-San Roque-El Carmen", 
+      "El Llano", 
+      "Fátima-El Panderón", 
+      "Los Vientos-Casa Ros", 
+      "Sagrado Corazón", 
+      "San Antonio-San José-Los Ángeles", 
+      "San Miguel", 
+      "Torrealta-Ribera de Molina"
+    ),
+    "El Romeral" = c(
+      "Altorreal-El Chorrico", 
+      "La Alcayna", 
+      "Los Conejos", 
+      "La Quinta", 
+      "El Pino"
+    ),
+    "Campotéjar-Los Valientes" = c("Campotéjar-Los Valientes")
+  )
+)
