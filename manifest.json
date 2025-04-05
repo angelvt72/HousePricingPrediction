@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "metadata": {
+      "appmode": "shiny",
+      "primary_rmd": null,
+      "primary_html": null,
+      "content_category": "application"
+    },
+    "packages": {
+      "cran": ["shiny", "shinydashboard", "leaflet", "dplyr", "ggplot2", "plotly", "caret", "glmnet", "sf", "rmapshaper"],
+      "github": []
+    },
+    "files": ["app.R", "Model/compra_ridge.rds", "Model/alquiler_ridge.rds", "shapeFile/MUNICIPIOS__MU_2014.shp"]
+  }
